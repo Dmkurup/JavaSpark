@@ -1,4 +1,4 @@
-package com.thoughtworks.de.wordcount;
+package com.spark.de.wordcount;
 
 public class WordCountDto {
     String words;

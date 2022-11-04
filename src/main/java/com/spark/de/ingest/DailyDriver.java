@@ -1,4 +1,4 @@
-package com.thoughtworks.de.ingest;
+package com.spark.de.ingest;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.LogManager;

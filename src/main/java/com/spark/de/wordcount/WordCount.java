@@ -1,4 +1,4 @@
-package com.thoughtworks.de.wordcount;
+package com.spark.de.wordcount;
 
 import java.time.LocalDateTime;
 import org.apache.log4j.Level;

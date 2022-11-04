@@ -1,4 +1,4 @@
-package com.thoughtworks.de.wordcount;
+package com.spark.de.wordcount;
 
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.function.FilterFunction;

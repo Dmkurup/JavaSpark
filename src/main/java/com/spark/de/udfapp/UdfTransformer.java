@@ -1,4 +1,4 @@
-package com.thoughtworks.de.citibike;
+package com.spark.de.udfapp;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.LogManager;
@@ -7,7 +7,7 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 
-public class CitibikeTransformer {
+public class UdfTransformer {
   static Logger log = LogManager.getRootLogger();
 
   /**

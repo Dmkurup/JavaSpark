@@ -1,4 +1,4 @@
-package com.thoughtworks.de.wordcount;
+package com.spark.de.wordcount;
 
 import java.io.Serializable;
 import org.apache.spark.sql.SparkSession;
