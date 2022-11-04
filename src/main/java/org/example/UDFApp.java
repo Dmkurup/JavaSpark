@@ -18,6 +18,7 @@ public class UDFApp {
         UDFApp app = new UDFApp();
         app.start();
     }
+    //start session
     private void start(){
         SparkSession spark = SparkSession.builder().master("local").appName("UDFApp").getOrCreate();
         spark.udf().register("isOpen",new IsOpenUdf(), DataTypes.BooleanType);
