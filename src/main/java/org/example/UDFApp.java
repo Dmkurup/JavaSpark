@@ -23,7 +23,7 @@ public class UDFApp {
         spark.udf().register("isOpen",new IsOpenUdf(), DataTypes.BooleanType);
 
         Dataset<Row> librariesDf = spark.read().format("csv")
-                .option("header", true)
+                .option("header", "true")
                 .option("inferSchema", true)
                 .option("encoding", "cp1252")
                 .load("data/Libraries.csv")
